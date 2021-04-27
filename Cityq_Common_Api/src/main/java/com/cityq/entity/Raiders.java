@@ -7,19 +7,20 @@ import lombok.Data;
 
 import java.io.Serializable;
 
-@TableName("tb_trade")
+@TableName("tb_raiders")
 @Data
-public class Trade implements Serializable {
+public class Raiders implements Serializable {
     @TableId(value = "id", type = IdType.AUTO)
     private int id;
     private int uid;
-    private String tradeThumb;
-    private String tradeName;
-    private String tradeDesc;
-    private String tradeUrl;
-    private String tradeRank;
-    private String tradeCommentCount;
-    private String tradeStar;
+    private String title;
+    private String description;
+    private String thumb;
+    private int readCount;
+    private int sourceType;
+    private String publishTime;
+    private String cityName;
+    private String jumbUrl;
     private int createTime;
     private int updateTime;
 }

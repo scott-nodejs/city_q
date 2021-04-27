@@ -1,0 +1,4 @@
+com\cityq\TradeServiceApi.class
+com\cityq\entity\Trade.class
+com\cityq\RaiderServiceApi.class
+com\cityq\entity\Raiders.class

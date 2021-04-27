@@ -1,0 +1,14 @@
+server:
+  port: 8090
+  servlet:
+    path: /
+spring:
+  #数据库连接配置
+  datasource:
+    username: root
+    password: lucong
+    url: jdbc:mysql://39.105.231.100:3306/city_q?characterEncoding=utf-8&useSSL=true&serverTimezone=GMT%2B8
+    driver-class-name: com.mysql.jdbc.Driver
+
+
+
